@@ -76,7 +76,7 @@ export const getStaticProps = async () => {
     },
     // The revalidate property sets how often the page must be re-generated
     // in seconds.
-    revalidate: 300,
+    revalidate: 1,
   };
 };
 
